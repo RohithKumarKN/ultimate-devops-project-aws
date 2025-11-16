@@ -51,7 +51,7 @@ variable "node_groups" {
       min_size     = number
     })
   }))
-  
+
   default = {
     general = {
       instance_types = ["t3.medium"]
