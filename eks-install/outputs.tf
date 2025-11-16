@@ -25,5 +25,5 @@ output "public_subnet_ids" {
 output "node_group_names" {
   description = "EKS Node Group Names"
   value       = var.node_groups[*].name
-  
+
 }
