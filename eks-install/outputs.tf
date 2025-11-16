@@ -25,9 +25,5 @@ output "public_subnet_ids" {
 output "node_group_names" {
   description = "EKS Node Group Names"
   value       = var.node_groups[*].name
-}
-
-output "node_group_arns" {
-  description = "EKS Node Group ARNs"
-  value       = aws_eks_node_group.main[*].arn
+  
 }
